@@ -1,0 +1,371 @@
+/* common.css */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Josefin+Sans:wght@300&display=swap');
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/*  */
+/*--- Menu ---*/
+.main-nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 15px 0;
+    background:;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.38);
+    min-height: 65px;
+}
+.service-list-item-content {
+   width: 400px;
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+
+.service-list-item-content:hover {
+  width: 300px;
+	transform: scale(1.3);
+  }
+
+#ask-form {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+  }
+  .about {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    float: left;
+    color: #333;
+  }
+  .about li {
+    list-style: none;
+  }
+nav ul {
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+    margin-right: 10px;
+    float: right;
+}
+
+nav ul li {
+    margin-left: 35px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #45463e;
+}
+
+nav ul a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+    transition: .5s;
+}
+
+nav ul a:hover {
+    color: #989898;
+    border-bottom-color: #989898;
+}
+
+.mobile-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 22px;
+    top: 20px;
+    width: 30px;
+}
+/* header */
+header {
+    height: 800px;
+    background: url(../img/1.jpg) no-repeat #fff;
+    background-size: cover;
+    width:100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+h2 {
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+    line-height: 1.2;
+    min-height: 52px;
+    text-transform: uppercase;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 50%);
+}
+h4 {
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: .14em;
+    line-height: 1em;
+    color: #fff;
+    font-style: normal;
+    font-size: 60px;
+}
+hr {
+  margin-left: -100px;
+  width: 30%;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: .14em;
+  line-height: 180%;
+  color: #fff;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+.social {
+  padding-top: 30px;
+  position: absolute;
+  top: 600px;
+  right: 110px;
+  line-height: 2.8;
+}
+.social-media {
+  padding-top: 25px;
+  list-style: none;
+  line-height: 1.8;
+}
+
+.main {
+  background: url(../img/2.jpg) no-repeat #fff;
+  height: 940px;
+  padding: 140px 80px;
+
+}
+#serice {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  white-space: nowrap;
+
+}
+.swiper-slide {
+  display: flex;
+  height: 640px;
+  text-align: center;
+}
+.main ul {
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  margin: 20px 0;
+  padding: 40px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 400;
+
+}
+.main li {
+  width: 5%;
+  border-bottom: 2px solid white;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
+
+
+.card {
+  border: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+.card p {
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.boutiques li {
+  list-style: none;
+  width: 300px;
+  height: 250px;
+}
+.boutiques {
+    display: flex;
+    flex-grow: 3;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+iframe {
+    position: absolute;
+    z-index: 0;
+    left: 550px;
+    top: 850px;
+    width:700px;
+    height:700px;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	box-sizing: border-box;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  outline: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+/* about */
+
+/* works */
+#footer {
+    background: #333;
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#footer li {
+  list-style: none;
+  margin: 40px;
+  padding-top: 10px;
+}
